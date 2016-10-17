@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA7066E81DB36EC6008FEF08 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7066E61DB36EC6008FEF08 /* Interface.storyboard */; };
 		FAA2C0DC1DB2D6A800C433B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2C0DB1DB2D6A700C433B3 /* AppDelegate.swift */; };
 		FAA2C0DE1DB2D6A800C433B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2C0DD1DB2D6A800C433B3 /* ViewController.swift */; };
 		FAA2C0E11DB2D6A800C433B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA2C0DF1DB2D6A800C433B3 /* Main.storyboard */; };
 		FAA2C0E31DB2D6A800C433B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA2C0E21DB2D6A800C433B3 /* Assets.xcassets */; };
 		FAA2C0E61DB2D6A800C433B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA2C0E41DB2D6A800C433B3 /* LaunchScreen.storyboard */; };
 		FAA2C0EB1DB2D6A800C433B3 /* watchCalc WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FAA2C0EA1DB2D6A800C433B3 /* watchCalc WatchKit App.app */; };
-		FAA2C0F11DB2D6A800C433B3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA2C0EF1DB2D6A800C433B3 /* Interface.storyboard */; };
 		FAA2C0F31DB2D6A800C433B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA2C0F21DB2D6A800C433B3 /* Assets.xcassets */; };
 		FAA2C0FA1DB2D6A800C433B3 /* watchCalc WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FAA2C0F91DB2D6A800C433B3 /* watchCalc WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FAA2C1011DB2D6A800C433B3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2C1001DB2D6A800C433B3 /* InterfaceController.swift */; };
 		FAA2C1031DB2D6A800C433B3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2C1021DB2D6A800C433B3 /* ExtensionDelegate.swift */; };
 		FAA2C1051DB2D6A800C433B3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2C1041DB2D6A800C433B3 /* NotificationController.swift */; };
 		FAA2C1071DB2D6A800C433B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA2C1061DB2D6A800C433B3 /* Assets.xcassets */; };
+		FAA2C1191DB34EFD00C433B3 /* tipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2C1181DB34EFD00C433B3 /* tipViewController.swift */; };
+		FAA2C11B1DB3590100C433B3 /* tipInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2C11A1DB3590100C433B3 /* tipInterfaceController.swift */; };
+		FAA2C11D1DB3591300C433B3 /* finalInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2C11C1DB3591300C433B3 /* finalInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA7066E71DB36EC6008FEF08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		FAA2C0D81DB2D6A700C433B3 /* watchCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA2C0DB1DB2D6A700C433B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA2C0DD1DB2D6A800C433B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +77,6 @@
 		FAA2C0E51DB2D6A800C433B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA2C0E71DB2D6A800C433B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA2C0EA1DB2D6A800C433B3 /* watchCalc WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchCalc WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAA2C0F01DB2D6A800C433B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		FAA2C0F21DB2D6A800C433B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA2C0F41DB2D6A800C433B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA2C0F91DB2D6A800C433B3 /* watchCalc WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchCalc WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +86,9 @@
 		FAA2C1041DB2D6A800C433B3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		FAA2C1061DB2D6A800C433B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA2C1081DB2D6A800C433B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA2C1181DB34EFD00C433B3 /* tipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tipViewController.swift; sourceTree = "<group>"; };
+		FAA2C11A1DB3590100C433B3 /* tipInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tipInterfaceController.swift; sourceTree = "<group>"; };
+		FAA2C11C1DB3591300C433B3 /* finalInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = finalInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,7 @@
 				FAA2C0E21DB2D6A800C433B3 /* Assets.xcassets */,
 				FAA2C0E41DB2D6A800C433B3 /* LaunchScreen.storyboard */,
 				FAA2C0E71DB2D6A800C433B3 /* Info.plist */,
+				FAA2C1181DB34EFD00C433B3 /* tipViewController.swift */,
 			);
 			path = watchCalc;
 			sourceTree = "<group>";
@@ -139,7 +146,7 @@
 		FAA2C0EE1DB2D6A800C433B3 /* watchCalc WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				FAA2C0EF1DB2D6A800C433B3 /* Interface.storyboard */,
+				FA7066E61DB36EC6008FEF08 /* Interface.storyboard */,
 				FAA2C0F21DB2D6A800C433B3 /* Assets.xcassets */,
 				FAA2C0F41DB2D6A800C433B3 /* Info.plist */,
 			);
@@ -155,6 +162,8 @@
 				FAA2C1061DB2D6A800C433B3 /* Assets.xcassets */,
 				FAA2C1081DB2D6A800C433B3 /* Info.plist */,
 				FAA2C0FE1DB2D6A800C433B3 /* Supporting Files */,
+				FAA2C11A1DB3590100C433B3 /* tipInterfaceController.swift */,
+				FAA2C11C1DB3591300C433B3 /* finalInterfaceController.swift */,
 			);
 			path = "watchCalc WatchKit Extension";
 			sourceTree = "<group>";
@@ -279,8 +288,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7066E81DB36EC6008FEF08 /* Interface.storyboard in Resources */,
 				FAA2C0F31DB2D6A800C433B3 /* Assets.xcassets in Resources */,
-				FAA2C0F11DB2D6A800C433B3 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +310,7 @@
 			files = (
 				FAA2C0DE1DB2D6A800C433B3 /* ViewController.swift in Sources */,
 				FAA2C0DC1DB2D6A800C433B3 /* AppDelegate.swift in Sources */,
+				FAA2C1191DB34EFD00C433B3 /* tipViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +319,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA2C1051DB2D6A800C433B3 /* NotificationController.swift in Sources */,
+				FAA2C11B1DB3590100C433B3 /* tipInterfaceController.swift in Sources */,
 				FAA2C1031DB2D6A800C433B3 /* ExtensionDelegate.swift in Sources */,
+				FAA2C11D1DB3591300C433B3 /* finalInterfaceController.swift in Sources */,
 				FAA2C1011DB2D6A800C433B3 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +342,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		FA7066E61DB36EC6008FEF08 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7066E71DB36EC6008FEF08 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		FAA2C0DF1DB2D6A800C433B3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -344,14 +364,6 @@
 				FAA2C0E51DB2D6A800C433B3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		FAA2C0EF1DB2D6A800C433B3 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAA2C0F01DB2D6A800C433B3 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -543,6 +555,7 @@
 				FAA2C10D1DB2D6A800C433B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA2C10F1DB2D6A800C433B3 /* Build configuration list for PBXNativeTarget "watchCalc WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +564,7 @@
 				FAA2C1111DB2D6A800C433B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA2C1131DB2D6A800C433B3 /* Build configuration list for PBXNativeTarget "watchCalc" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +573,7 @@
 				FAA2C1151DB2D6A800C433B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
